@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+.sketch-pad {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+  border-top: 1px outset rgb(233, 229, 229);
+  background-color: white;
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  width: 1rem;
+  height: 1rem;
+}
+
+.button-container {
+  width: 6rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
